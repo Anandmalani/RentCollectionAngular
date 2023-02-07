@@ -5,14 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-
+import { SameerComponent } from './components/sameer/sameer.component';
+import { HarshitComponent } from './components/harshit/harshit.component';
+import { OmkarComponent } from './components/omkar/omkar.component';
+import { ProgrammerComponent } from './components/programmer/programmer.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutUsComponent,
-    NavbarComponent
+    SameerComponent,
+    HarshitComponent,
+    OmkarComponent,
+    ProgrammerComponent
   ],
   imports: [
     BrowserModule,

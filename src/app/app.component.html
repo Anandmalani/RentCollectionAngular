@@ -1,13 +1,15 @@
-<app-navbar></app-navbar>
-<h1>Rent Collection Angular App</h1>
-<p>App to understand front end development</p>
-<home></home>
-<h1>Updated in Develop Branch</h1>
+<nav>
+    <ul>
+        <li>
+            <a routerLink="/sameer" routerLinkActive="active" ariaCurrentWhenActive="page">Sameer</a>
+        </li>
+        <li>
+            <a routerLink="/omkar" routerLinkActive="active" ariaCurrentWhenActive="page">Omkar</a>
+        </li>
+        <li>
+            <a routerLink="/harshit" routerLinkActive="active" ariaCurrentWhenActive="page">Harshit</a>
+        </li>
+    </ul>
+</nav>
 
-<p>git fetch</p>
-<p>git pull </p>
-<p>git add .</p>
-<p>git status</p>
-<p>git commit -m "updated"</p>
-<p>git push origin develop</p>
-<p id="Harshit">Harshit git done</p>
+<router-outlet></router-outlet>
