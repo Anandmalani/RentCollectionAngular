@@ -5,6 +5,7 @@ import { HarshitComponent } from './components/harshit/harshit.component';
 import { OmkarComponent } from './components/omkar/omkar.component';
 import { ProgrammerComponent } from './components/programmer/programmer.component';
 import { SameerComponent } from './components/sameer/sameer.component';
+
 const routes: Routes = [
   {
     path: 'sameer',
