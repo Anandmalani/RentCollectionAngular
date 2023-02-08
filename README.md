@@ -1,7 +1,8 @@
 # RentCollectionAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
-Dashboard to manage rent collection process. Due payments, Paid payments, Invoices
+
+Dashboard to manage rent collection process. Due payments, Paid payments, Invoices etc.
 
 ## Development server
 
