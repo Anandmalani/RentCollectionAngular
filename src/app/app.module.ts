@@ -9,6 +9,7 @@ import { SameerComponent } from './components/sameer/sameer.component';
 import { HarshitComponent } from './components/harshit/harshit.component';
 import { OmkarComponent } from './components/omkar/omkar.component';
 import { ProgrammerComponent } from './components/programmer/programmer.component';
+import { AllTenantComponent } from './components/harshit/all-tenant/all-tenant.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { ProgrammerComponent } from './components/programmer/programmer.componen
     SameerComponent,
     HarshitComponent,
     OmkarComponent,
-    ProgrammerComponent
+    ProgrammerComponent,
+    AllTenantComponent
   ],
   imports: [
     BrowserModule,

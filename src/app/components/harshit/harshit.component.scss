@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+body{
+    background-color: #e9eea0;
+}
+
+header{
+    height: 50px;
+}
+#nav{
+    background-color: rgb(236, 236, 43);
+}
+// #nav:hover{
+//     background-color: aqua;
+// }
+
+#parent-body{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start; 
+    height: 100vh;
+    padding: 20px;
+}
+#nav-body{
+    display: flex;
+}
+#App-Name{
+    padding-top: 20px;
+    padding-left: 10px;
+    font:icon;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+img{
+    padding: 5px;
+}
+.sign-btn{
+    background-color: rgb(62, 67, 5);
+    color:  rgb(236, 236, 43);
+    // padding: 5px;
+    flex: 0.1;
+    height: 30px;
+    margin: 0px 7px;
+    border-radius: 10px;
+}
+
+.sign-btn:hover{
+    color: burlywood;
+    background-color: rgb(70, 18, 18);
+}
+
+#btn{
+    padding-left: 1150px;
+    padding-top: 15px;
+}
+
+#left-nav{
+    border-radius: 8px;
+    background-color: rgb(147, 171, 45);
+    flex: 0.2;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start; 
+}
+.dashboard{
+    width: 15vw;
+    border-radius: 6px;
+    background-color: #dfe680;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 25px;
+}
+.dashboard:hover{
+    color: burlywood;
+    background-color: rgb(70, 18, 18);
+}
+#left-nav-upper{
+    margin: 20px;
+}
+#main-body{
+    background-color: rgb(187, 218, 75);
+    border-radius: 8px;
+    flex: 0.75;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center; 
+}
+#main-body-upper{
+    flex: 0.3;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start; 
+    margin: 5px;
+}
+// #main-body-lower{
+//     flex: 0.5;
+//     width: 100vh;
+//     background-color: blue;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items:flex-start; 
+// }
+// #btn3{
+//     flex: 0.2;
+//     width: 15vw;
+// }
+.main-body-upper-box{
+    border-radius: 10px;
+    flex: 0.2;
+    height: 100px;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #eca14075;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+img{
+    height: 5vh;
+    align-self: center;
+}
+#text{
+    color: white;
+    align-self: center;
+}
