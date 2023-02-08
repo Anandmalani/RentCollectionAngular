@@ -30,8 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Deployment
 
 ## Frontend
-### AWS Cloudfront/S3 
-### Azure Static Web App
+AWS Cloudfront/S3 
+Azure Static Web App
 
 ## Backend
 .Net (C#)
