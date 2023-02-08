@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AllTenantComponent } from './components/harshit/all-tenant/all-tenant.component';
 import { HarshitComponent } from './components/harshit/harshit.component';
 import { OmkarComponent } from './components/omkar/omkar.component';
 import { ProgrammerComponent } from './components/programmer/programmer.component';
 import { SameerComponent } from './components/sameer/sameer.component';
-
 const routes: Routes = [
   {
     path: 'sameer',
@@ -22,7 +22,13 @@ const routes: Routes = [
   },
   {
     path: 'harshit',
-    component: HarshitComponent
+    component: HarshitComponent,
+    children:[
+      {
+      path: 'all-tenant',
+      component: AllTenantComponent
+      }
+    ]
   }
 ];
 

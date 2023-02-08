@@ -1,1 +1,65 @@
-<p>harshit works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header id="nav">
+    <div id="nav-body">
+        <img src=".\assets\icon\wallet.png" height="45px">
+        <div id="App-Name">
+            Rent Collection
+        </div>
+        <div id="btn">
+            <button class="sign-btn" id="btn1">Sign-up</button>
+            <button class="sign-btn" id="btn2">Sign-in</button>
+        </div>
+    </div>
+    </header>
+    <div id="parent-body">
+        <div id="left-nav">
+            <div id="left-nav-upper">
+                <button class="dashboard" id="btn3">Dashboard</button>
+                <button class="dashboard" id="btn4">All Tenants</button>
+                <!-- <a routerLink="/harshit" routerLinkActive="active" ariaCurrentWhenActive="page" class="dashboard">All Tenants</a> -->
+                <button class="dashboard" id="btn5">Flat details</button>
+                <button class="dashboard" id="btn6">Electricity Bill</button>
+            </div>
+        </div>
+        <div id="main-body">
+            <div id="main-body-upper">
+               <div class="main-body-upper-box" id="mb1">
+                <img src=".\assets\icon\money-bag.png">
+                <span id="text">
+                    Total Rent - 10,0678
+                </span>
+               </div>
+               <div class="main-body-upper-box" id="mb2">
+                <img src=".\assets\icon\rupee.png">
+                <span id="text">
+                    This month - 23,567
+                </span>
+               </div>
+               <div class="main-body-upper-box" id="mb3">
+                <img src=".\assets\icon\due-date.png">
+                <span id="text">
+                    Due Amount - 14,678
+                </span>
+               </div>
+               <div class="main-body-upper-box" id="mb4">
+                <img src=".\assets\icon\check-mark.png">
+                <span id="text">
+                    Total Collection - 10,0678
+                </span>
+               </div>
+            </div>
+            <div id="main-body-lower">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
