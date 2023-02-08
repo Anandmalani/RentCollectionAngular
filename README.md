@@ -34,16 +34,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Azure Static Web App
 
 ## Backend
-### .Net (C#)
-### Lambdas in Python (invoked by API Gateway or scheduled Cloudwatch events)
-### Using serverless framework
+.Net (C#)
+Lambdas in Python (invoked by API Gateway or scheduled Cloudwatch events) Using serverless framework
 
 ## Database
-### Azure SQL (Relational Database)
-### AWS SQL, MySQL (Relational Database)
-### AWS Dynamo DB (NoSQL Database)
-### Atlas MongoDB (NoSQL Database)
+Azure SQL (Relational Database)
+AWS SQL, MySQL (Relational Database)
+AWS Dynamo DB (NoSQL Database)
+Atlas MongoDB (NoSQL Database)
 
 ## File Storage
-### Azure Blob
-### AWS S3
+Azure Blob
+AWS S3
