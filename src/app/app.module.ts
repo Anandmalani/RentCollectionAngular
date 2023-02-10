@@ -10,6 +10,7 @@ import { HarshitComponent } from './components/harshit/harshit.component';
 import { OmkarComponent } from './components/omkar/omkar.component';
 import { ProgrammerComponent } from './components/programmer/programmer.component';
 import { AllTenantComponent } from './components/harshit/all-tenant/all-tenant.component';
+import { AnandComponent } from './components/anand/anand.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { AllTenantComponent } from './components/harshit/all-tenant/all-tenant.c
     HarshitComponent,
     OmkarComponent,
     ProgrammerComponent,
-    AllTenantComponent
+    AllTenantComponent,
+    AnandComponent
   ],
   imports: [
     BrowserModule,
